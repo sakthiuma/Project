@@ -49,5 +49,5 @@ for key, desc_list in descriptions.items():
 #print(descriptions)
         f=open("/home/pari/Flickr8k_text/descriptions.txt",'w')
 for key,desc_list in descriptions.items():
-    f.write(str(key)+" "+str(desc_list)+"\n")
+    f.write(key+" "+str(desc_list)+"\n")
 f.close()
